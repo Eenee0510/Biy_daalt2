@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    margin: 0;
+}
+.navbar .navbar-body .navbar-body-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1D3444;
+}
+.navbar .navbar-body {
+    display: flex;
+    justify-content: space-between;   
+}
+.navbar .navbar-menu-lists .navbar-menu {
+    display: inline-block;
+    margin: 0 1rem;   
+}
+.navbar .navbar-menu-lists .navbar-menu a{
+    text-decoration: none;
+    color: #1D3444;
+    font-weight: bold;
+}
+.navbar .navbar-menu-lists .navbar-menu a:hover {
+    color: #F58A07;
+}
+.navbar .navbar-menu-lists .navbar-menu .cta {
+    border-radius: 30px;
+    background-color: rgb(250, 240, 221);
+    color: #F58A07;
+    padding: 10px 30px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.main-header {
+    background-color: #dceaf5;
+    padding: 100px 0;
+    height: 545px;
+}
+.main-header .header-text{
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.main-header .header-content-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;   
+}
+.main-header .header-content-body .header-text .header-content-heading {
+    font-size: 3.6rem;
+}
+.main-header .header-content-body .header-text .header-content-btn {
+    margin-bottom: 2rem;
+}
+.main-header .header-content-body .header-text .header-content-btn .header-btn {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #1d3444;
+    font-size: 1.125rem;
+    display: inline-block;
+}
+.main-header .header-content-body .header-text .header-content-btn .header-btn.active {
+    background-color: #F58A07;
+    border-radius: 30px;
+    color: white;
+}
+.main-header .header-content-body .header-text .header-content-logos .header-content-logo {
+    padding-right: 30px;
+}
+.main-section .section-content-body {
+    display: flex;  
+    padding-bottom: 100px;
+}
+.main-section .section-content-body .section-text .section-column-body {
+    display: flex;
+    justify-content: space-between;
+}
+.main-section .section-content-body .section-text .section-column-body .section-column {
+    display: inline-block;
+    margin: 0;
+}
+.main-section .section-content-body .section-text .section-column-body .column-post {
+    border-radius: 30px;  
+}
+.main-section .section-content-body .section-text .section-column-body .section-column a{
+    text-decoration: none;
+    color: #F58A07;
+}
+.main-section .section-content-body .section-text .section-content-heading {
+    display: inline-block;
+    width: 700px;
+    font-size: 3rem;
+}
+.main-section .section-content-body .section-text .section-content-desc {
+    display: inline-block;
+    width: 700px;
+}
+.main-section .section-content-body .section-text .section-column-body .section-column a::after{
+    content: "\2192";
+}
+.build-section {
+    background-color: #dceaf5;
+}
+.build-section .build-section-body {
+    padding-bottom: 100px;
+}
+.build-section .build-section-body .build-section-text {
+    display: flex;
+}
+.build-section .build-section-body .build-section-text .build-section-title {
+    font-size: 2rem;
+    padding-top: 40px;
+}
+.build-section .build-section-body .build-section-text .build-section-desc {
+    padding-top: 60px;
+}
+.build-section .build-section-body .build-section-column {
+    display: flex;
+    justify-content: space-between;
+}
+.build-section .build-section-body .build-section-column .build-column {
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+.build-section .build-section-body .build-section-column .build-column .build-column-inside {
+    padding: 40px;
+}
+.combine-section .combine-section-body {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.combine-section .combine-section-body .combine-section-heading .combine-section-column {
+    display: flex;
+}
+.combine-section .combine-section-body .combine-section-image img {
+    border-radius: 30px;
+}
+.combine-section .combine-section-body .combine-section-heading {
+    display: inline-block;
+
+}
+.combine-section .combine-section-body .combine-section-heading .combine-section-text .combine-text-title {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+.combine-section .combine-section-body .combine-section-heading .combine-section-column .combine-column {
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.combine-section .combine-section-body .combine-section-heading .combine-section-column .combine-column h2 {
+    font-size: 2.5rem;
+    color: orange;
+}
+.combine-section .combine-section-body .combine-section-heading .combine-section-column .combine-column h3 {
+    font-size: 1.5rem;
+}
+.help-section .help-section-body {
+    display: flex;
+    background-color: #dceaf5;
+    border-radius: 30px;
+    
+}
+.help-section .help-section-body .help-section-text {
+    display: inline-block;
+    width: 770px;
+    padding-right: 120px;
+    padding-left: 50px;
+}
+.help-section .help-section-body .help-section-text .help-section-headlist {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 600px;
+}
+.help-section .help-section-body .help-section-text .help-section-headlist .help-section-list {
+    padding: 20px;
+   
+}
+
+.help-section .help-section-body .help-section-text .help-section-headlist a {
+    text-decoration: none;
+}
+.help-section .help-section-body .help-section-text .help-section-title {
+    font-size: 3rem;
+}
+.help-section .help-section-body .help-section-image {
+    padding: 100px 40px 40px;
+
+}
+.orange-section {
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+   
+    padding-right: 150px;
+    background-color: #F58A07;
+ 
+ 
+}
+.orange-section .orange-section-body {
+    display: flex;
+}
+.orange-section .orange-section-body .orange-section-image img {
+    display: inline-block;
+    width: 90%;
+    height: 48%;
+}
+.orange-section .orange-section-body .orange-section-text {
+   
+
+}
+.orange-section .orange-section-body .orange-section-text .orange-section-title {
+    font-size: 3rem;
+    line-height: 1.1;
+    color: white;
+    width: 500px;
+    display: inline-block;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.orange-section .orange-section-body .orange-section-text .orange-section-more {
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.orange-section .orange-section-body .orange-section-text a {
+    text-decoration: none;
+    color: #F58A07;
+}
+.combine-section .combine-section-body .finsweet-section-body {
+    background-image: url("/images/video-image.png");
+    width: 1020px;
+    height: 500px;
+    
+   
+}
+.combine-section .combine-section-body .finsweet-section-body  {
+    display: inline-block;
+   
+}
